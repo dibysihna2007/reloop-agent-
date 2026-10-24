@@ -1,0 +1,58 @@
+[
+  {
+    "time": "2026-10-24T06:48:06.281Z",
+    "id": "RL-1004",
+    "event": "Exception escalated",
+    "details": "No available recycler satisfies all constraints for 1 kg of Metal in Bengaluru. The request has been escalated for human review; no booking was made.",
+    "actor": "Agent workflow"
+  },
+  {
+    "time": "2026-10-24T06:48:06.279Z",
+    "id": "RL-1004",
+    "event": "Eligibility evaluated",
+    "details": "8 recyclers checked; 0 eligible candidate(s). Matching duration 1 ms.",
+    "actor": "Matching engine"
+  },
+  {
+    "time": "2026-10-24T06:48:06.278Z",
+    "id": "RL-1004",
+    "event": "Request received",
+    "details": "1 kg Metal · Bengaluru · preferred window Tomorrow",
+    "actor": "Requester"
+  },
+  {
+    "time": "2026-10-24T06:46:30.666Z",
+    "id": "RL-1001",
+    "event": "Request evaluated",
+    "details": "25 kg Plastic · Bengaluru · initial preferred recycler unavailable",
+    "actor": "Agent workflow"
+  },
+  {
+    "time": "2026-10-24T06:46:30.666Z",
+    "id": "RL-1001",
+    "event": "Alternative selected",
+    "details": "EcoWorks Recycling selected: available, accepts plastic, minimum 10 kg, ₹18/kg",
+    "actor": "Matching engine"
+  },
+  {
+    "time": "2026-10-24T06:46:30.666Z",
+    "id": "RL-1001",
+    "event": "Approval requested",
+    "details": "Booking proposed; waiting for human approval",
+    "actor": "System"
+  },
+  {
+    "time": "2026-10-24T06:46:30.666Z",
+    "id": "RL-1002",
+    "event": "Booking approved",
+    "details": "Demo booking status recorded as confirmed",
+    "actor": "Human reviewer"
+  },
+  {
+    "time": "2026-10-24T06:46:30.666Z",
+    "id": "RL-1003",
+    "event": "Exception escalated",
+    "details": "No available recycler satisfies quantity and material constraints",
+    "actor": "Agent workflow"
+  }
+]
